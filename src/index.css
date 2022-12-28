@@ -1,0 +1,34 @@
+.sideNav {
+  margin-top: -60px;
+  position: fixed;
+  padding: 10px;
+}
+.link {
+  color: #004c97;
+  text-decoration: none;
+}
+.sidetext {
+  font-weight: bolder;
+}
+.headertext {
+  font-weight: bolder;
+  color: #004c97;
+}
+.homepagebox {
+  /* background-image: url("./images/background.jpeg"); */
+  background-color: #004c97;
+  position: absolute;
+  height: 100%;
+}
+.welcometext {
+  color: white;
+  margin-top: 10%;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.par {
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
