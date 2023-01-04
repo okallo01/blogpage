@@ -6,10 +6,7 @@ export default class Products extends React.Component {
     return (
        <div>
         <h1>Products Page</h1>
-        <p>The products will be available down below soon</p>
-        <p>The products will be available down below soon</p>
-        <p>The products will be available down below soon</p>
-        <p>The products will be available down below soon hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+        <h2>Comming soon.........</h2>
         </div>
     )
    

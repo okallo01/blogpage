@@ -6,8 +6,7 @@ export default class Services extends React.Component {
     return (
        <div>
         <h1>Services Page</h1>
-      
-        <p>The available service will be here soon</p>
+        <h2>Comming soon...........</h2>
         </div>
     )
     

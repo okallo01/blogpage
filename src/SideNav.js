@@ -44,7 +44,7 @@ render() {
 			<Link to='/' className='link'>
 				<List>
 				<ListItem button key='Home'>
-					<ListItemIcon><HomeIcon/></ListItemIcon>
+					<ListItemIcon><HomeIcon htmlColor='#3b5998'/></ListItemIcon>
 					<ListItemText primary='Home'/>
 				</ListItem>
 				</List>
@@ -52,7 +52,7 @@ render() {
 			<Link to='/products' className='link'>
 				<List>
 				<ListItem button key='Products'>
-					<ListItemIcon><ShoppingCartIcon/></ListItemIcon>
+					<ListItemIcon><ShoppingCartIcon htmlColor='#3b5998'/></ListItemIcon>
 					<ListItemText primary='Products'/>
 				</ListItem>
 				</List>
@@ -60,7 +60,7 @@ render() {
 			<Link to='/services' className='link'>
 				<List>
 				<ListItem button key='Services'>
-					<ListItemIcon><Diversity1Icon/></ListItemIcon>
+					<ListItemIcon><Diversity1Icon htmlColor='#3b5998'/></ListItemIcon>
 					<ListItemText primary='Service'/>
 				</ListItem>
 				</List>
@@ -68,7 +68,7 @@ render() {
 			<Link to='/about' className='link'>
 				<List>
 				<ListItem button key='About Us'>
-					<ListItemIcon><AccountCircleIcon/></ListItemIcon>
+					<ListItemIcon><AccountCircleIcon htmlColor='#3b5998'/></ListItemIcon>
 					<ListItemText primary='About Us'/>
 				</ListItem>
 				</List>
@@ -76,7 +76,7 @@ render() {
 			<Link to='/contact' className='link'>
 			<List>
 				<ListItem button key='Contact Us'>
-				<ListItemIcon><PermContactCalendarIcon/></ListItemIcon>
+				<ListItemIcon><PermContactCalendarIcon htmlColor='#3b5998'/></ListItemIcon>
 				<ListItemText primary='Contact Us'/>
 				</ListItem>
 				</List>

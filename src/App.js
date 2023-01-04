@@ -12,10 +12,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
 return (
 	<div className="App">
-		<h1 className={"headertext"}>Hooperkal</h1>
+		<nav>
+			<h1 className={"headertext"}>Hooperkal</h1>
+		</nav>
+			
 		<BrowserRouter>
 		<MarerialUIDrawer/>
-			<Routes>
+			<Routes path={<Home/>}>
 				<Route exact path='/' element={<Home/>}/>
 				<Route exact path='/products' element={<Products/>} /> 
 				<Route exact path='/services' element={<Services/>} /> 

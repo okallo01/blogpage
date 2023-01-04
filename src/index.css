@@ -14,21 +14,26 @@
   font-weight: bolder;
   color: #004c97;
 }
-.homepagebox {
+/* .homepagebox {
   /* background-image: url("./images/background.jpeg"); */
-  background-color: #004c97;
-  position: absolute;
-  height: 100%;
-}
-.welcometext {
-  color: white;
-  margin-top: 10%;
-  font-weight: bolder;
-  font-size: 3rem;
-}
+
 .par {
   color: white;
   font-weight: bolder;
   font-size: 2rem;
 }
+.homeitem {
+  margin-top: 10%;
+}
+.h2home {
+  font-weight: bolder;
+}
+.spacing {
+  margin-top: 5%;
+}
+.formspacing {
+  margin-left: 20;
+  margin-right: 20;
+}
+
 
