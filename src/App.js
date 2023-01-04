@@ -20,10 +20,10 @@ return (
 		<MarerialUIDrawer/>
 			<Routes path={<Home/>}>
 				<Route exact path='/' element={<Home/>}/>
-				<Route exact path='/products' element={<Products/>} /> 
-				<Route exact path='/services' element={<Services/>} /> 
-				<Route exact path='/about' element={<About/>}/>
-				<Route exact path='/contact' element={<Contact/>} /> 
+				<Route path='/products' element={<Products/>} /> 
+				<Route path='/services' element={<Services/>} /> 
+				<Route path='/about' element={<About/>}/>
+				<Route path='/contact' element={<Contact/>} /> 
 			</Routes>
 		</BrowserRouter>
 	</div>
